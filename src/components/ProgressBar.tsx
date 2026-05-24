@@ -1,0 +1,15 @@
+export default function ProgressBar({ value, max }: { value: number; max: number }) {
+  const pct = max > 0 ? Math.min(100, Math.round((value / max) * 100)) : 0;
+  return (
+    <div className="w-full bg-gray-200 rounded-full h-2">
+      <div
+        className="bg-blue-600 h-2 rounded-full transition-all duration-300"
+        style={{ width: `${pct}%` }}
+        role="progressbar"
+        aria-valuenow={pct}
+        aria-valuemin={0}
+        aria-valuemax={100}
+      />
+    </div>
+  );
+}

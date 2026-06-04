@@ -13,7 +13,10 @@ export default function Footer() {
           <span>&copy; {new Date().getFullYear()} NotaryPrep CA. All rights reserved.</span>
           <a href="/blog" className="hover:text-blue-600">Blog</a>
           <a href="/pricing" className="hover:text-blue-600">Pricing</a>
-          <a href="mailto:support@example.com" className="hover:text-blue-600">Contact</a>
+          <a href="/terms" className="hover:text-blue-600">Terms</a>
+          <a href="/privacy" className="hover:text-blue-600">Privacy</a>
+          <a href="/refund" className="hover:text-blue-600">Refund</a>
+          <a href="mailto:support@notaryprepca.com" className="hover:text-blue-600">Contact</a>
         </div>
       </div>
     </footer>

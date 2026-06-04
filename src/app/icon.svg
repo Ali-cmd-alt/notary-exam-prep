@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2563EB"/>
+      <stop offset="100%" style="stop-color:#1D4ED8"/>
+    </linearGradient>
+  </defs>
+  <!-- Background circle -->
+  <circle cx="50" cy="50" r="50" fill="url(#bg)"/>
+  <!-- Outer ring suggesting a notary seal -->
+  <circle cx="50" cy="50" r="42" fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="2"/>
+  <circle cx="50" cy="50" r="36" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
+  <!-- Document/scroll shape -->
+  <rect x="30" y="22" width="40" height="50" rx="3" fill="white" opacity="0.95"/>
+  <rect x="33" y="28" width="34" height="4" rx="1" fill="#2563EB" opacity="0.6"/>
+  <rect x="33" y="36" width="28" height="3" rx="1" fill="#93C5FD"/>
+  <rect x="33" y="42" width="24" height="3" rx="1" fill="#93C5FD"/>
+  <rect x="33" y="48" width="20" height="3" rx="1" fill="#93C5FD"/>
+  <!-- Seal/stamp circle at bottom of document -->
+  <circle cx="50" cy="60" r="7" fill="#DBEAFE" stroke="#2563EB" stroke-width="1.5"/>
+  <text x="50" y="63" text-anchor="middle" font-size="7" font-weight="bold" fill="#1D4ED8" font-family="serif">CA</text>
+</svg>
